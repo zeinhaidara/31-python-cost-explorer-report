@@ -1,0 +1,25 @@
+{
+  "GroupDefinitions": [{"Type": "TAG", "Key": "team"}],
+  "ResultsByTime": [
+    {
+      "TimePeriod": {"Start": "2026-11-02", "End": "2026-11-03"},
+      "Total": {},
+      "Groups": [
+        {"Keys": ["team$web"], "Metrics": {"UnblendedCost": {"Amount": "150.00", "Unit": "USD"}}},
+        {"Keys": ["team$data"], "Metrics": {"UnblendedCost": {"Amount": "100.00", "Unit": "USD"}}},
+        {"Keys": ["team$"], "Metrics": {"UnblendedCost": {"Amount": "90.40", "Unit": "USD"}}}
+      ],
+      "Estimated": false
+    },
+    {
+      "TimePeriod": {"Start": "2026-11-10", "End": "2026-11-11"},
+      "Total": {},
+      "Groups": [
+        {"Keys": ["team$web"], "Metrics": {"UnblendedCost": {"Amount": "250.00", "Unit": "USD"}}},
+        {"Keys": ["team$data"], "Metrics": {"UnblendedCost": {"Amount": "120.636912", "Unit": "USD"}}},
+        {"Keys": ["team$"], "Metrics": {"UnblendedCost": {"Amount": "75.00", "Unit": "USD"}}}
+      ],
+      "Estimated": true
+    }
+  ]
+}
