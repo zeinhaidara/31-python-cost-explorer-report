@@ -16,6 +16,11 @@ writes a short Markdown report with an executive summary at the top.
 > Management data, identifies top cost drivers by service/tag, and generates
 > weekly executive reports in Markdown/PDF.
 
+Why it matters: the Cost Explorer console shows what was spent, but not what
+changed this week or which team owns it. A short weekly summary of the top
+drivers, by service and by a team tag, gives the people who can act on spend
+something they will actually read.
+
 This repo covers the AWS + Markdown half. Markdown converts to PDF with any
 standard tool (pandoc, a browser print), so PDF was left out to keep the
 code small.
